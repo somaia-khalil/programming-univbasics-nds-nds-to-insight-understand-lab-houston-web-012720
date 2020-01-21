@@ -9,16 +9,12 @@ end
 
 
 def print_first_directors_movie_titles
-pp directors_database
-
 d_movies = directors_database[0][:movies]
-
 index = 0
 while index < d_movies.size do
   titles = d_movies[index][:title]
   puts titles
   index+=1
 end
-
 end
 
