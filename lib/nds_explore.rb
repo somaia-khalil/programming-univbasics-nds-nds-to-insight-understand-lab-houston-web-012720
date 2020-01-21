@@ -14,5 +14,8 @@ pp directors_database
 movies = directors_database[0][movies]
 
 index = 0
+while index < movies.size do
+  titles = movies[index][title]
+end
 end
 
