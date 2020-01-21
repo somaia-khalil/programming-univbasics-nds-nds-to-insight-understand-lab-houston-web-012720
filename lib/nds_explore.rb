@@ -15,7 +15,7 @@ d_movies = directors_database[0][:movies]
 
 index = 0
 while index < d_movies.size do
-  titles = movies[index][:title]
+  titles = d_movies[index][:title]
   puts titles
   index+=1
 end
