@@ -17,7 +17,8 @@ index = 0
 while index < movies.size do
   titles = movies[index][:title]
   puts titles
+  index+=1
 end
-index+=1
+
 end
 
